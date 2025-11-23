@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.background-image {
+background-image: url('../assets/umvcBackground.jpg');
+}
+
+.tile-container {
+  margin:auto;
+  padding: auto;
+
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.character-tile {
+  margin: 0.4em;
+  padding: 0;
+  border: 1px solid yellow;
+
+  list-style-type: none;
+}
